@@ -434,6 +434,21 @@
     object-fit:contain;
     object-position:center center;
   }
+  .quadrant-figure{
+    padding:1.2vh .9vw 1.1vh;
+    border:1px solid rgba(127,127,127,.3);
+    background:rgba(127,127,127,.06);
+    min-width:0;
+  }
+  .quadrant-img{
+    width:100%;
+    height:58vh;
+    object-fit:contain;
+    object-position:center center;
+    display:block;
+    border-radius:3px;
+    background:rgba(var(--ink-rgb),.04);
+  }
   .phase-rail{
     display:grid;
     grid-template-columns:repeat(4,1fr);
@@ -911,38 +926,34 @@
     <div>Act I · Control Agent</div>
     <div>08 / 24</div>
   </div>
-  <div class="frame" style="padding-top:5vh">
-    <div class="kicker" data-anim>Phase 04</div>
-    <h2 class="h-xl" data-anim>掌控 Agent</h2>
-    <p class="lead" style="max-width:72vw; margin-top:2vh" data-anim>
-      重点不再是“Agent 能不能做”，而是“我如何让它在不同项目里被我掌控”。
-    </p>
-    <div class="grid-3" style="margin-top:5vh; gap:2vw">
-      <div class="diagram-card" data-anim>
-        <div class="diagram-label">01 · Company</div>
-        <div class="diagram-title">多 repo 并行</div>
-        <div class="diagram-copy">一个项目四个 repo，可以开多个 Agent；任务颗粒度变小，代码和页面都能验收。</div>
-      </div>
-      <div class="diagram-card" data-anim>
-        <div class="diagram-label">02 · Open Source</div>
-        <div class="diagram-title">用 review 机制掌控</div>
-        <div class="diagram-copy">开发后触发架构 review、code review、BDD 行为测试，让 Agent 之间互相校准。</div>
-      </div>
-      <div class="diagram-card" data-anim>
-        <div class="diagram-label">03 · Delivery</div>
-        <div class="diagram-title">只看最终结果</div>
-        <div class="diagram-copy">spec-kit 式开发，不看每一行代码，只看页面、功能和交付结果。</div>
+  <div class="frame grid-2-7-5" style="padding-top:4.4vh; align-items:start">
+    <div>
+      <div class="kicker" data-anim>Phase 04</div>
+      <h2 class="h-xl" data-anim>掌控 Agent</h2>
+      <p class="lead" style="max-width:42vw; margin-top:2vh" data-anim>
+        社区已经形成一个共识：不同重要程度、不同复杂度的任务，要用不同方式掌控 Agent。
+      </p>
+      <div style="display:grid; gap:1.4vh; margin-top:4.2vh">
+        <div class="diagram-card" data-anim>
+          <div class="diagram-label">My Practice 01</div>
+          <div class="diagram-title">公司级多 repo</div>
+          <div class="diagram-copy">落在高重要度、高复杂度区域，需要小颗粒度并行和明确验收。</div>
+        </div>
+        <div class="diagram-card" data-anim>
+          <div class="diagram-label">My Practice 02</div>
+          <div class="diagram-title">开源维护</div>
+          <div class="diagram-copy">重要但可以被机制约束，适合用 review 和回归持续校准。</div>
+        </div>
+        <div class="diagram-card" data-anim>
+          <div class="diagram-label">My Practice 03</div>
+          <div class="diagram-title">简单交付</div>
+          <div class="diagram-copy">目标明确、复杂度相对低，可以更多围绕最终结果验收。</div>
+        </div>
       </div>
     </div>
-    <div class="grid-2-6-6" style="margin-top:3vh; gap:2vw">
-      <div class="evidence-card" data-anim>
-        <div class="evidence-label"><span>Multi Repo</span><span>Control Surface</span></div>
-        <img class="evidence-img wide" style="height:23vh" src="images/1-src-company-multi-repo.png" alt="多 repo 多 Agent 并行原始截图">
-      </div>
-      <div class="evidence-card" data-anim>
-        <div class="evidence-label"><span>Outcome</span><span>Long Project</span></div>
-        <img class="evidence-img wide" style="height:23vh" src="images/1-src-ai-drink-app.jpg" alt="AI 饮品 App 项目原始截图">
-      </div>
+    <div class="quadrant-figure" data-anim>
+      <div class="evidence-label"><span>Community Matrix</span><span>Importance × Complexity</span></div>
+      <img class="quadrant-img" src="images/1.6掌控Agent.png" alt="掌控 Agent 的重要程度与执行复杂度四象限图">
     </div>
   </div>
   <div class="foot">
@@ -1060,51 +1071,20 @@
 
 <section class="slide light">
   <div class="chrome">
-    <div>Act II · Amazon Seller Canvas</div>
+    <div>Act II · Seller Problem</div>
     <div>13 / 24</div>
   </div>
-  <div class="frame grid-2-7-5" style="padding-top:5vh">
-    <div>
-      <div class="kicker" data-anim>Sandbox</div>
-      <h2 class="h-xl" data-anim>Amazon Canvas：业务沙盘</h2>
-      <p class="lead" style="margin-top:3vh" data-anim>
-        它不是更大的聊天框，而是把问题、数据、洞察、方案、风险和下一步动作组织到同一个空间里。
-      </p>
-      <div class="callout" style="margin-top:5vh" data-anim>
-        正确顺序不是先执行再观察，而是先推演，再审核，再执行。
-      </div>
-    </div>
-    <div class="canvas-panel" data-anim>
+  <div class="frame" style="padding-top:5vh">
+    <div class="grid-2-7-5" style="gap:4vw; align-items:start">
       <div>
-        <div class="diagram-label">Seller Canvas</div>
-        <div class="canvas-title">开放业务问题先进入沙盘，不直接打到真实系统。</div>
+        <div class="kicker" data-anim>Open Business Goal</div>
+        <h2 class="h-xl" style="font-size:5.5vw" data-anim>“销量为什么上不去？”</h2>
       </div>
-      <div class="canvas-stack">
-        <div class="canvas-item">问题：怎么提升销量？</div>
-        <div class="canvas-item">数据：销售、广告、库存、类目</div>
-        <div class="canvas-item">洞察：机会、约束、风险</div>
-        <div class="canvas-item accent">提案：候选方案与下一步</div>
-      </div>
+      <p class="lead" style="margin-top:1vh" data-anim>
+        这句话看起来像一个问题，但它背后不是一个动作，而是一组会影响预算、库存、利润和品牌的候选路径。
+      </p>
     </div>
-  </div>
-  <div class="foot">
-    <div>Case · Amazon Seller Canvas</div>
-    <div>Sandbox Before Execution</div>
-  </div>
-</section>
-
-<section class="slide dark">
-  <div class="chrome">
-    <div>Act II · Growth Levers</div>
-    <div>14 / 24</div>
-  </div>
-  <div class="frame" style="padding-top:6vh">
-    <div class="kicker" data-anim>Open Goal</div>
-    <h2 class="h-xl" style="font-size:5.6vw" data-anim>“提升销量”不是一个动作</h2>
-    <p class="lead" style="margin-top:2vh; max-width:74vw" data-anim>
-      它是一组增长杠杆。加商品不是跑偏，而是选品扩张这条路径上的候选方案。
-    </p>
-    <div class="grid-6" style="margin-top:6vh">
+    <div class="grid-6" style="margin-top:5vh">
       <div class="stat-card" data-anim><div class="stat-label">01</div><div class="stat-nb" style="font-size:3.2vw; font-family:var(--serif-zh)">库存</div><div class="stat-note">热销商品是否缺货</div></div>
       <div class="stat-card" data-anim><div class="stat-label">02</div><div class="stat-nb" style="font-size:3.2vw; font-family:var(--serif-zh)">营销</div><div class="stat-note">广告预算与促销策略</div></div>
       <div class="stat-card" data-anim><div class="stat-label">03</div><div class="stat-nb" style="font-size:3.2vw; font-family:var(--serif-zh)">商品页</div><div class="stat-note">listing、图片、标题、内容</div></div>
@@ -1115,7 +1095,34 @@
   </div>
   <div class="foot">
     <div>Open Goal → Candidate Paths</div>
-    <div>Growth Levers</div>
+    <div>Seller Problem</div>
+  </div>
+</section>
+
+<section class="slide dark">
+  <div class="chrome">
+    <div>Act II · Amazon Seller Canvas</div>
+    <div>14 / 24</div>
+  </div>
+  <div class="frame grid-2-7-5" style="padding-top:5vh; align-items:start">
+    <div>
+      <div class="kicker" data-anim>Sandbox</div>
+      <h2 class="h-xl" style="font-size:5.2vw" data-anim>Amazon Canvas：业务沙盘</h2>
+      <p class="lead" style="margin-top:3vh" data-anim>
+        它没有让 Agent 从问题直接跳到真实执行，而是先把开放问题放进可推演、可比较、可审核的空间。
+      </p>
+      <div class="callout" style="margin-top:5vh" data-anim>
+        正确顺序不是先执行再观察，而是先推演，再审核，再执行。
+      </div>
+    </div>
+    <div class="evidence-card" data-anim>
+      <div class="evidence-label"><span>Seller Canvas</span><span>Sandbox Before Execution</span></div>
+      <img class="evidence-img contain" style="height:52vh" src="images/2.3-AmazonCanvas业务沙盘.png" alt="Amazon Seller Canvas 业务问题进入沙盘再进入真实系统的示意图">
+    </div>
+  </div>
+  <div class="foot">
+    <div>Case · Amazon Seller Canvas</div>
+    <div>Sandbox Before Execution</div>
   </div>
 </section>
 
@@ -1129,25 +1136,15 @@
       <div class="kicker" data-anim>From Chat To Object</div>
       <h2 class="h-xl" style="font-size:5.5vw" data-anim>开放问题，变成方案对象</h2>
       <p class="lead" style="margin-top:3vh" data-anim>
-        方案可以被展开、对比、追问、加约束、确认，再进入执行准备。
+        Canvas 不是给一句建议，而是形成一个可以展开、对比、追问、加约束、确认的对象。
       </p>
       <div class="callout" style="margin-top:5vh" data-anim>
         这就是业务世界里的 branch 等价物：先在安全空间里形成版本，再决定是否进入真实系统。
       </div>
     </div>
-    <div class="canvas-panel" data-anim>
-      <div>
-        <div class="diagram-label">Proposal Object</div>
-        <div class="canvas-title">一个可展开、可比较、可确认的方案版本。</div>
-      </div>
-      <div class="node-grid">
-        <div class="node-pill">业务目标</div>
-        <div class="node-pill">候选路径</div>
-        <div class="node-pill">预期影响</div>
-        <div class="node-pill">风险和约束</div>
-        <div class="node-pill">执行清单</div>
-        <div class="node-pill">确认记录</div>
-      </div>
+    <div class="evidence-card" data-anim>
+      <div class="evidence-label"><span>Proposal Object</span><span>Open Question To Execution</span></div>
+      <img class="evidence-img contain" style="height:52vh" src="images/2.5-AmazonCanvas方案对象.png" alt="开放问题经过数据汇聚、机会识别、候选方案、沙盘推演到分阶段执行的示意图">
     </div>
   </div>
   <div class="foot">
@@ -1161,32 +1158,17 @@
     <div>Act II · Control Concepts</div>
     <div>16 / 24</div>
   </div>
-  <div class="frame" style="padding-top:5vh">
+  <div class="frame" style="padding-top:4.4vh">
     <div>
       <div class="kicker" data-anim>Read From Product Actions</div>
       <h2 class="h-xl" style="font-size:5.3vw" data-anim>从案例里读出控制概念</h2>
       <p class="lead" style="margin-top:3vh" data-anim>
-        不是先背术语，而是从产品动作里看到它们为什么需要存在。
+        这才是第二章真正要抵达的地方：从 Canvas 的产品动作里，读出业务 Agent 进入真实系统前需要的控制机制。
       </p>
     </div>
-    <div class="thin-flow">
-      <div class="diagram-card" data-anim>
-        <div class="diagram-label">Human in the loop</div>
-        <div class="diagram-title">人保留判断位置</div>
-        <div class="diagram-copy">关键业务判断不是每步弹窗，而是不能绕过人。</div>
-      </div>
-      <div class="thin-arrow">→</div>
-      <div class="diagram-card" data-anim>
-        <div class="diagram-label">Checkpoint</div>
-        <div class="diagram-title">真实执行前的状态锚点</div>
-        <div class="diagram-copy">方案、预测、清单先被保存和审阅。</div>
-      </div>
-      <div class="thin-arrow">→</div>
-      <div class="diagram-card" data-anim>
-        <div class="diagram-label">Recovery</div>
-        <div class="diagram-title">恢复稳定状态</div>
-        <div class="diagram-copy">业务里不总能撤销，只能推演、延迟、打回或补偿。</div>
-      </div>
+    <div class="evidence-card" style="margin-top:3vh" data-anim>
+      <div class="evidence-label"><span>Control Concepts</span><span>Human In The Loop · Checkpoint · Rollback</span></div>
+      <img class="evidence-img contain" style="height:50vh" src="images/2.6-从Canvas读出控制概念.png" alt="从 Canvas 读出 Human in the Loop、Checkpoint、Rollback 控制概念的示意图">
     </div>
   </div>
   <div class="foot">
