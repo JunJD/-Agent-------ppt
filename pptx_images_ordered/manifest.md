@@ -1,0 +1,32 @@
+# PPT ??????
+
+- Source: 当Agent进入业务系统-图片全稿-ch2-ch3.pptx
+- Slides: 26
+- Extracted images: 26
+
+- 01: `images\slide-01.png` (1672x941, 2204368 bytes)
+- 02: `images\slide-02.png` (1672x941, 868927 bytes)
+- 03: `images\slide-03.png` (1672x941, 696839 bytes)
+- 04: `images\slide-04.png` (1672x941, 2007349 bytes)
+- 05: `images\slide-05.png` (1672x941, 2038011 bytes)
+- 06: `images\slide-06.png` (1672x941, 1871421 bytes)
+- 07: `images\slide-07.png` (1672x941, 2043926 bytes)
+- 08: `images\slide-08.png` (1672x941, 1778673 bytes)
+- 09: `images\slide-09.png` (1672x941, 1997374 bytes)
+- 10: `images\slide-10.png` (1672x941, 2327128 bytes)
+- 11: `images\slide-11.png` (1672x941, 1866906 bytes)
+- 12: `images\slide-12.png` (1920x1080, 789569 bytes)
+- 13: `images\slide-13.png` (1672x941, 1760633 bytes)
+- 14: `images\slide-14.png` (1672x941, 725304 bytes)
+- 15: `images\slide-15.png` (1672x941, 2074240 bytes)
+- 16: `images\slide-16.png` (1672x941, 2191516 bytes)
+- 17: `images\slide-17.png` (1672x941, 2265477 bytes)
+- 18: `images\slide-18.png` (1672x941, 2434488 bytes)
+- 19: `images\slide-19.png` (1672x941, 2119316 bytes)
+- 20: `images\slide-20.png` (1672x941, 1884041 bytes)
+- 21: `images\slide-21.png` (1672x941, 1923471 bytes)
+- 22: `images\slide-22.png` (1672x941, 731158 bytes)
+- 23: `images\slide-23.png` (1672x941, 1666436 bytes)
+- 24: `images\slide-24.png` (1672x941, 1800304 bytes)
+- 25: `images\slide-25.png` (1672x941, 2103164 bytes)
+- 26: `images\slide-26.png` (1672x941, 2115698 bytes)
