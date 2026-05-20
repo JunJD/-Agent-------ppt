@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfbfd"/>
+      <stop offset="1" stop-color="#eef3f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#14213d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto">
+      <path d="M 3 3 L 13 8 L 3 13 z" fill="#9aa3b1"/>
+    </marker>
+    <style>
+      text { font-family: "Hiragino Sans GB", "STHeiti", "PingFang SC", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0; }
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1320" cy="140" r="180" fill="#dcecff" opacity="0.45"/>
+  <circle cx="220" cy="780" r="210" fill="#e9f6ef" opacity="0.55"/>
+  <text x="90" y="84" text-anchor="start" font-size="24" font-weight="700" fill="#2f6df6" opacity="1"><tspan x="90" dy="0">Coding Agent 实践</tspan></text>
+  <text x="90" y="142" text-anchor="start" font-size="54" font-weight="800" fill="#171717" opacity="1"><tspan x="90" dy="0">三套实践，对应三种掌控模型</tspan></text>
+  <text x="92" y="190" text-anchor="start" font-size="26" font-weight="500" fill="#6f737a" opacity="1"><tspan x="92" dy="0">同样是 AI 编程，控制策略完全不同</tspan></text>
+  
+      <rect x="100" y="255" width="410" height="360" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<rect x="124" y="279" width="68" height="42" rx="21" fill="#2fa66a" stroke="#2fa66a" stroke-width="1" opacity="1"/>
+<text x="158" y="307.7" text-anchor="middle" font-size="22" font-weight="700" fill="#fff" opacity="1"><tspan x="158" dy="0">A</tspan></text>
+<text x="136" y="355" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="136" dy="0">公司级重点项目</tspan></text>
+<text x="136" y="409" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="136" dy="0">拆小任务 / 多 repo 并行 / 持续验收</tspan></text>
+      <rect x="595" y="255" width="410" height="360" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<rect x="619" y="279" width="68" height="42" rx="21" fill="#2f6df6" stroke="#2f6df6" stroke-width="1" opacity="1"/>
+<text x="653" y="307.7" text-anchor="middle" font-size="22" font-weight="700" fill="#fff" opacity="1"><tspan x="653" dy="0">B</tspan></text>
+<text x="631" y="355" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="631" dy="0">开源兴趣项目</tspan></text>
+<text x="631" y="409" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="631" dy="0">竞品调研 / 架构 Review / Code Review </tspan><tspan x="631" dy="31">/ BDD</tspan></text>
+      <rect x="1090" y="255" width="410" height="360" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<rect x="1114" y="279" width="68" height="42" rx="21" fill="#c77c11" stroke="#c77c11" stroke-width="1" opacity="1"/>
+<text x="1148" y="307.7" text-anchor="middle" font-size="22" font-weight="700" fill="#fff" opacity="1"><tspan x="1148" dy="0">C</tspan></text>
+<text x="1126" y="355" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="1126" dy="0">小产品 Demo</tspan></text>
+<text x="1126" y="409" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="1126" dy="0">SpaceKit / vibe coding / 快速体验</tspan></text>
+      <text x="800" y="735" text-anchor="middle" font-size="42" font-weight="800" fill="#171717" opacity="1"><tspan x="800" dy="0">先选模式，再让 Agent 工作</tspan></text>
+    
+</svg>

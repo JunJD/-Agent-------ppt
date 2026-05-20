@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfbfd"/>
+      <stop offset="1" stop-color="#eef3f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#14213d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto">
+      <path d="M 3 3 L 13 8 L 3 13 z" fill="#9aa3b1"/>
+    </marker>
+    <style>
+      text { font-family: "Hiragino Sans GB", "STHeiti", "PingFang SC", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0; }
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1320" cy="140" r="180" fill="#dcecff" opacity="0.45"/>
+  <circle cx="220" cy="780" r="210" fill="#e9f6ef" opacity="0.55"/>
+  <text x="90" y="84" text-anchor="start" font-size="24" font-weight="700" fill="#2f6df6" opacity="1"><tspan x="90" dy="0">Coding Agent 实践</tspan></text>
+  <text x="90" y="142" text-anchor="start" font-size="54" font-weight="800" fill="#171717" opacity="1"><tspan x="90" dy="0">Agent 掌控策略 2x2</tspan></text>
+  <text x="92" y="190" text-anchor="start" font-size="26" font-weight="500" fill="#6f737a" opacity="1"><tspan x="92" dy="0">先判断任务类型，再选择协作方式</tspan></text>
+  
+      <g transform="translate(165 250)">
+        <line x1="0" y1="480" x2="1120" y2="480" stroke="#b8c0cc" stroke-width="4" marker-end="url(#arrow)"/>
+        <line x1="0" y1="480" x2="0" y2="0" stroke="#b8c0cc" stroke-width="4" marker-end="url(#arrow)"/>
+        <line x1="560" y1="0" x2="560" y2="480" stroke="#d8dde5" stroke-width="3" stroke-dasharray="10 12"/>
+        <line x1="0" y1="240" x2="1120" y2="240" stroke="#d8dde5" stroke-width="3" stroke-dasharray="10 12"/>
+        <text x="1120" y="530" text-anchor="end" font-size="28" font-weight="800" fill="#6f737a" opacity="1"><tspan x="1120" dy="0">执行复杂度</tspan></text>
+        <text x="-40" y="-18" text-anchor="start" font-size="28" font-weight="800" fill="#6f737a" opacity="1"><tspan x="-40" dy="0">重要程度</tspan></text>
+        <rect x="18" y="18" width="510" height="200" rx="28" fill="#f1f8ff" stroke="#d9e9ff" stroke-width="2" opacity="1"/>
+        <rect x="592" y="18" width="510" height="200" rx="28" fill="#f2f8f5" stroke="#d8efe3" stroke-width="2" opacity="1"/>
+        <rect x="18" y="262" width="510" height="190" rx="28" fill="#f8f8fa" stroke="#e5e7ec" stroke-width="2" opacity="1"/>
+        <rect x="592" y="262" width="510" height="190" rx="28" fill="#fff7ec" stroke="#f2dfbf" stroke-width="2" opacity="1"/>
+        <text x="54" y="78" text-anchor="start" font-size="38" font-weight="800" fill="#2f6df6" opacity="1"><tspan x="54" dy="0">Quick Win</tspan></text>
+        <text x="54" y="150" text-anchor="start" font-size="25" font-weight="500" fill="#6f737a" opacity="1"><tspan x="54" dy="0">规格清楚，快速执行，结果验收</tspan></text>
+        <text x="630" y="78" text-anchor="start" font-size="38" font-weight="800" fill="#2fa66a" opacity="1"><tspan x="630" dy="0">重点项目</tspan></text>
+        <text x="630" y="150" text-anchor="start" font-size="25" font-weight="500" fill="#6f737a" opacity="1"><tspan x="630" dy="0">拆小任务，多 Agent 并行，持续验收</tspan></text>
+        <text x="54" y="322" text-anchor="start" font-size="36" font-weight="800" fill="#6f737a" opacity="1"><tspan x="54" dy="0">低优先填充</tspan></text>
+        <text x="54" y="392" text-anchor="start" font-size="25" font-weight="500" fill="#6f737a" opacity="1"><tspan x="54" dy="0">自动化、顺手处理、批量清理</tspan></text>
+        <text x="630" y="322" text-anchor="start" font-size="36" font-weight="800" fill="#c77c11" opacity="1"><tspan x="630" dy="0">先拆解</tspan></text>
+        <text x="630" y="392" text-anchor="start" font-size="25" font-weight="500" fill="#6f737a" opacity="1"><tspan x="630" dy="0">降低复杂度，或判断是否值得做</tspan></text>
+        <rect x="810" y="58" width="214" height="50" rx="25" fill="#2fa66a" stroke="#2fa66a" stroke-width="1" opacity="1"/>
+<text x="917" y="91.05" text-anchor="middle" font-size="23" font-weight="700" fill="#fff" opacity="1"><tspan x="917" dy="0">公司级多 repo</tspan></text>
+        <rect x="810" y="330" width="202" height="48" rx="24" fill="#c77c11" stroke="#c77c11" stroke-width="1" opacity="1"/>
+<text x="911" y="361.7" text-anchor="middle" font-size="22" font-weight="700" fill="#fff" opacity="1"><tspan x="911" dy="0">开源兴趣项目</tspan></text>
+        <rect x="265" y="330" width="190" height="48" rx="24" fill="#8f98a7" stroke="#8f98a7" stroke-width="1" opacity="1"/>
+<text x="360" y="361.7" text-anchor="middle" font-size="22" font-weight="700" fill="#fff" opacity="1"><tspan x="360" dy="0">小 Demo</tspan></text>
+      </g>
+    
+</svg>
