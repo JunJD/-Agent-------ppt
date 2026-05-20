@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfbfd"/>
+      <stop offset="1" stop-color="#eef3f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#14213d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto">
+      <path d="M 3 3 L 13 8 L 3 13 z" fill="#9aa3b1"/>
+    </marker>
+    <style>
+      text { font-family: "Hiragino Sans GB", "STHeiti", "PingFang SC", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0; }
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1320" cy="140" r="180" fill="#dcecff" opacity="0.45"/>
+  <circle cx="220" cy="780" r="210" fill="#e9f6ef" opacity="0.55"/>
+  <text x="90" y="84" text-anchor="start" font-size="24" font-weight="700" fill="#2f6df6" opacity="1"><tspan x="90" dy="0">Coding Agent 实践</tspan></text>
+  <text x="90" y="142" text-anchor="start" font-size="54" font-weight="800" fill="#171717" opacity="1"><tspan x="90" dy="0">公司级项目：多 repo 并行</tspan></text>
+  <text x="92" y="190" text-anchor="start" font-size="26" font-weight="500" fill="#6f737a" opacity="1"><tspan x="92" dy="0">效率来自并行，掌控来自拆分</tspan></text>
+  
+      <rect x="110" y="330" width="275" height="130" rx="30" fill="#ffffff" stroke="#dce3ee" stroke-width="2" opacity="1"/>
+      <text x="248" y="405" text-anchor="middle" font-size="31" font-weight="800" fill="#171717" opacity="1"><tspan x="248" dy="0">一个业务需求</tspan></text>
+      <line x1="385" y1="395" x2="540" y2="395" stroke="#9aa3b1" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+      <rect x="540" y="300" width="300" height="190" rx="32" fill="#f7fbff" stroke="#d4e8ff" stroke-width="2" opacity="1"/>
+      <text x="690" y="370" text-anchor="middle" font-size="34" font-weight="800" fill="#2f6df6" opacity="1"><tspan x="690" dy="0">人拆任务</tspan></text>
+      <text x="690" y="422" text-anchor="middle" font-size="24" font-weight="500" fill="#6f737a" opacity="1"><tspan x="690" dy="0">小到可执行、可验收</tspan></text>
+      <line x1="840" y1="350" x2="1005" y2="238" stroke="#9aa3b1" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+      <line x1="840" y1="390" x2="1005" y2="365" stroke="#9aa3b1" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+      <line x1="840" y1="430" x2="1005" y2="498" stroke="#9aa3b1" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+      <line x1="840" y1="470" x2="1005" y2="625" stroke="#9aa3b1" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+      <rect x="1005" y="160" width="360" height="126" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<circle cx="1047" cy="204" r="13" fill="#2f6df6"/>
+<text x="1079" y="222" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="1079" dy="0">知识库仓库</tspan></text>
+<text x="1079" y="262" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="1079" dy="0">Agent 1</tspan></text>
+      <rect x="1005" y="290" width="360" height="126" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<circle cx="1047" cy="334" r="13" fill="#00a6a6"/>
+<text x="1079" y="352" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="1079" dy="0">AgentKit</tspan></text>
+<text x="1079" y="392" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="1079" dy="0">Agent 2</tspan></text>
+      <rect x="1005" y="420" width="360" height="126" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<circle cx="1047" cy="464" r="13" fill="#2fa66a"/>
+<text x="1079" y="482" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="1079" dy="0">富文本输入框</tspan></text>
+<text x="1079" y="522" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="1079" dy="0">Agent 3</tspan></text>
+      <rect x="1005" y="550" width="360" height="126" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<circle cx="1047" cy="594" r="13" fill="#7a5cff"/>
+<text x="1079" y="612" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="1079" dy="0">笔记编辑器</tspan></text>
+<text x="1079" y="652" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="1079" dy="0">Agent 4</tspan></text>
+      <text x="175" y="650" text-anchor="start" font-size="32" font-weight="800" fill="#171717" opacity="1"><tspan x="175" dy="0">统一验收：代码检查 + 页面检查 + 业务路径确认</tspan></text>
+    
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfbfd"/>
+      <stop offset="1" stop-color="#eef3f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#14213d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto">
+      <path d="M 3 3 L 13 8 L 3 13 z" fill="#9aa3b1"/>
+    </marker>
+    <style>
+      text { font-family: "Hiragino Sans GB", "STHeiti", "PingFang SC", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0; }
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1320" cy="140" r="180" fill="#dcecff" opacity="0.45"/>
+  <circle cx="220" cy="780" r="210" fill="#e9f6ef" opacity="0.55"/>
+  <text x="90" y="84" text-anchor="start" font-size="24" font-weight="700" fill="#2f6df6" opacity="1"><tspan x="90" dy="0">Coding Agent 实践</tspan></text>
+  <text x="90" y="142" text-anchor="start" font-size="54" font-weight="800" fill="#171717" opacity="1"><tspan x="90" dy="0">任务要拆到多小？</tspan></text>
+  <text x="92" y="190" text-anchor="start" font-size="26" font-weight="500" fill="#6f737a" opacity="1"><tspan x="92" dy="0">如果人都不知道边界，就不要假装 Agent 会知道</tspan></text>
+  
+      <rect x="130" y="260" width="315" height="220" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<rect x="154" y="284" width="68" height="42" rx="21" fill="#2f6df6" stroke="#2f6df6" stroke-width="1" opacity="1"/>
+<text x="188" y="312.7" text-anchor="middle" font-size="22" font-weight="700" fill="#fff" opacity="1"><tspan x="188" dy="0">1</tspan></text>
+<text x="166" y="360" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="166" dy="0">模块归属</tspan></text>
+<text x="166" y="414" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="166" dy="0">这段需求属于哪里？</tspan></text>
+      <line x1="445" y1="370" x2="555" y2="370" stroke="#9aa3b1" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+      <rect x="555" y="260" width="315" height="220" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<rect x="579" y="284" width="68" height="42" rx="21" fill="#00a6a6" stroke="#00a6a6" stroke-width="1" opacity="1"/>
+<text x="613" y="312.7" text-anchor="middle" font-size="22" font-weight="700" fill="#fff" opacity="1"><tspan x="613" dy="0">2</tspan></text>
+<text x="591" y="360" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="591" dy="0">文件范围</tspan></text>
+<text x="591" y="414" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="591" dy="0">大概要改哪些文件？</tspan></text>
+      <line x1="870" y1="370" x2="980" y2="370" stroke="#9aa3b1" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+      <rect x="980" y="260" width="315" height="220" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<rect x="1004" y="284" width="68" height="42" rx="21" fill="#2fa66a" stroke="#2fa66a" stroke-width="1" opacity="1"/>
+<text x="1038" y="312.7" text-anchor="middle" font-size="22" font-weight="700" fill="#fff" opacity="1"><tspan x="1038" dy="0">3</tspan></text>
+<text x="1016" y="360" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="1016" dy="0">验收方式</tspan></text>
+<text x="1016" y="414" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="1016" dy="0">怎样证明它做对了？</tspan></text>
+      <rect x="215" y="575" width="1170" height="120" rx="34" fill="#ffffff" stroke="#dfe5ee" stroke-width="2" opacity="1"/>
+      <text x="800" y="650" text-anchor="middle" font-size="38" font-weight="800" fill="#171717" opacity="1"><tspan x="800" dy="0">三件事都清楚，再交给 Agent 执行</tspan></text>
+    
+</svg>

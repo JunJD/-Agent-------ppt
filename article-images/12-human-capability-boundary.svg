@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfbfd"/>
+      <stop offset="1" stop-color="#eef3f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#14213d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto">
+      <path d="M 3 3 L 13 8 L 3 13 z" fill="#9aa3b1"/>
+    </marker>
+    <style>
+      text { font-family: "Hiragino Sans GB", "STHeiti", "PingFang SC", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0; }
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1320" cy="140" r="180" fill="#dcecff" opacity="0.45"/>
+  <circle cx="220" cy="780" r="210" fill="#e9f6ef" opacity="0.55"/>
+  <text x="90" y="84" text-anchor="start" font-size="24" font-weight="700" fill="#2f6df6" opacity="1"><tspan x="90" dy="0">Coding Agent 实践</tspan></text>
+  <text x="90" y="142" text-anchor="start" font-size="54" font-weight="800" fill="#171717" opacity="1"><tspan x="90" dy="0">AI 的边界，决定人的新能力</tspan></text>
+  <text x="92" y="190" text-anchor="start" font-size="26" font-weight="500" fill="#6f737a" opacity="1"><tspan x="92" dy="0">真正拉开差距的，是边界之外的判断力</tspan></text>
+  
+      <rect x="560" y="300" width="480" height="190" rx="44" fill="#ffffff" stroke="#dce4ef" stroke-width="2" opacity="1"/>
+      <text x="800" y="378" text-anchor="middle" font-size="38" font-weight="800" fill="#171717" opacity="1"><tspan x="800" dy="0">会用顶级 AI 的人</tspan></text>
+      <text x="800" y="432" text-anchor="middle" font-size="26" font-weight="500" fill="#6f737a" opacity="1"><tspan x="800" dy="0">像一个小型组织一样工作</tspan></text>
+      <rect x="100" y="230" width="340" height="170" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<circle cx="142" cy="274" r="13" fill="#2f6df6"/>
+<text x="136" y="330" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="136" dy="0">定义边界</tspan></text>
+<text x="136" y="384" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="136" dy="0">职责 / 输入输出 / 状态归属</tspan></text>
+      <rect x="1160" y="230" width="340" height="170" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<circle cx="1202" cy="274" r="13" fill="#00a6a6"/>
+<text x="1196" y="330" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="1196" dy="0">拆分任务</tspan></text>
+<text x="1196" y="384" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="1196" dy="0">小到可执行、可验收</tspan></text>
+      <rect x="100" y="565" width="340" height="170" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<circle cx="142" cy="609" r="13" fill="#2fa66a"/>
+<text x="136" y="665" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="136" dy="0">回收质量</tspan></text>
+<text x="136" y="719" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="136" dy="0">Review / BDD / 页面验收</tspan></text>
+      <rect x="1160" y="565" width="340" height="170" rx="26" fill="#ffffff" stroke="#e2e6ee" stroke-width="2" opacity="1"/>
+<circle cx="1202" cy="609" r="13" fill="#c77c11"/>
+<text x="1196" y="665" text-anchor="start" font-size="34" font-weight="800" fill="#171717" opacity="1"><tspan x="1196" dy="0">判断取舍</tspan></text>
+<text x="1196" y="719" text-anchor="start" font-size="23" font-weight="500" fill="#6f737a" opacity="1"><tspan x="1196" dy="0">什么值得做，什么该放弃</tspan></text>
+      <line x1="440" y1="315" x2="560" y2="370" stroke="#9aa3b1" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+      <line x1="1160" y1="315" x2="1040" y2="370" stroke="#9aa3b1" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+      <line x1="440" y1="650" x2="560" y2="450" stroke="#9aa3b1" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+      <line x1="1160" y1="650" x2="1040" y2="450" stroke="#9aa3b1" stroke-width="4" stroke-linecap="round" marker-end="url(#arrow)"/>
+    
+</svg>

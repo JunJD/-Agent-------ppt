@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#fbfbfd"/>
+      <stop offset="1" stop-color="#eef3f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#14213d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="16" markerHeight="16" refX="12" refY="8" orient="auto">
+      <path d="M 3 3 L 13 8 L 3 13 z" fill="#9aa3b1"/>
+    </marker>
+    <style>
+      text { font-family: "Hiragino Sans GB", "STHeiti", "PingFang SC", "Helvetica Neue", Arial, sans-serif; letter-spacing: 0; }
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1320" cy="140" r="180" fill="#dcecff" opacity="0.45"/>
+  <circle cx="220" cy="780" r="210" fill="#e9f6ef" opacity="0.55"/>
+  <text x="90" y="84" text-anchor="start" font-size="24" font-weight="700" fill="#2f6df6" opacity="1"><tspan x="90" dy="0">Coding Agent 实践</tspan></text>
+  <text x="90" y="142" text-anchor="start" font-size="54" font-weight="800" fill="#171717" opacity="1"><tspan x="90" dy="0">BDD：后端看行为，前端看路径</tspan></text>
+  <text x="92" y="190" text-anchor="start" font-size="26" font-weight="500" fill="#6f737a" opacity="1"><tspan x="92" dy="0">测试不是仪式，是证明功能真的成立</tspan></text>
+  
+      <g filter="url(#shadow)">
+      <rect x="110" y="250" width="640" height="455" rx="36" fill="#ffffff" stroke="#e2e7ef" stroke-width="2" opacity="1"/>
+      <text x="155" y="324" text-anchor="start" font-size="38" font-weight="800" fill="#2fa66a" opacity="1"><tspan x="155" dy="0">后端</tspan></text>
+      <text x="155" y="402" text-anchor="start" font-size="30" font-weight="700" fill="#171717" opacity="1"><tspan x="155" dy="0">Feature 说明</tspan></text>
+      <text x="155" y="470" text-anchor="start" font-size="30" font-weight="700" fill="#171717" opacity="1"><tspan x="155" dy="0">BDD 场景</tspan></text>
+      <text x="155" y="538" text-anchor="start" font-size="30" font-weight="700" fill="#171717" opacity="1"><tspan x="155" dy="0">测试脚本</tspan></text>
+      <text x="155" y="606" text-anchor="start" font-size="30" font-weight="700" fill="#171717" opacity="1"><tspan x="155" dy="0">执行验证</tspan></text>
+      </g>
+      <g filter="url(#shadow)">
+      <rect x="850" y="250" width="640" height="455" rx="36" fill="#ffffff" stroke="#e2e7ef" stroke-width="2" opacity="1"/>
+      <text x="895" y="324" text-anchor="start" font-size="38" font-weight="800" fill="#2f6df6" opacity="1"><tspan x="895" dy="0">前端</tspan></text>
+      <text x="895" y="402" text-anchor="start" font-size="30" font-weight="700" fill="#171717" opacity="1"><tspan x="895" dy="0">启动页面</tspan></text>
+      <text x="895" y="470" text-anchor="start" font-size="30" font-weight="700" fill="#171717" opacity="1"><tspan x="895" dy="0">自动操作关键路径</tspan></text>
+      <text x="895" y="538" text-anchor="start" font-size="30" font-weight="700" fill="#171717" opacity="1"><tspan x="895" dy="0">截图 / 录屏</tspan></text>
+      <text x="895" y="606" text-anchor="start" font-size="30" font-weight="700" fill="#171717" opacity="1"><tspan x="895" dy="0">检查布局和交互</tspan></text>
+      </g>
+    
+</svg>
